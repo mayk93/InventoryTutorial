@@ -18,7 +18,7 @@ public class Inventory : MonoBehaviour
 	public float slotSize;
 
 	public GameObject slotPrefab;
-
+		
 	private List<GameObject> allSlots;
 	// Use this for initialization
 	void Start () 

@@ -246,8 +246,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots: 30
   rows: 3
-  slotPaddingLeft: 2
-  slotPladdingTop: 2
+  slotPaddingLeft: 3
+  slotPladdingTop: 3
   slotSize: 20
   slotPrefab: {fileID: 156374, guid: 89633c16ef20606448eb9e145db58e6f, type: 2}
 --- !u!1 &1313644152
@@ -394,6 +394,7 @@ GameObject:
   - 223: {fileID: 1920688621}
   - 114: {fileID: 1920688620}
   - 114: {fileID: 1920688619}
+  - 114: {fileID: 1920688622}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -473,3 +474,14 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!114 &1920688622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920688617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13788721008f47340ba8f82b3ee0ba26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
